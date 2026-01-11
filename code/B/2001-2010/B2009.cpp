@@ -10,7 +10,6 @@ namespace AC
         return 0; 
     }
 }
-
 int main()
 {
     return AC::A1();

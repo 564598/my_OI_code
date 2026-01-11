@@ -1,3 +1,6 @@
 # 此文件用来自动提交
-git add .
-git commit -m "commit"
+git.exe add . > $null
+git.exe commit -m "commit" > $null
+git.exe push > $null
+Clear-Host
+Write-Output OK
